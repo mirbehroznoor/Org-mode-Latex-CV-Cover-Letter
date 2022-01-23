@@ -1,9 +1,9 @@
 #+title: Org-mode-Latex-CV-Cover-Letter
 #+author: Mir Behroz Noor
 
-Since I tried to write my CV and Cover Letter in Org-mode, I could not find any satisfactory solutions. Although there were few but them use more LaTex syntax. I have tried to reduce the amount of =LaTex= syntax and use =Org= syntax as much as possible. However, I must say Org-mode and Latex complement each other really well as you see it with these CVs.
+Since I tried to write my CV and Cover Letter in Org-mode, I could not find any satisfactory solutions. Although there were few but most of them use a lot of LaTex syntax. Thus, here I have tried to reduce the amount of =LaTex= syntax and use =Org= syntax as much as possible. However, I must say Org-mode and Latex complement each other really well as you will see with these CVs.
 
-It is also an attempt to substitute the Two column CV structure of MS Word and Libre Office. Also after some browsing, I noticed that the other CVs have either totally ignored the Org Table functionality or used it in a very limited way. I hope these CVs will help divert some attention towards the combination of Org Table and LaTex for writing beautiful CVs.
+It is also an attempt to substitute the Two column CV structure of MS Word and Libre Office. Also to note that the other CVs have either totally ignored the Org Table functionality or used it in a very limited way. I hope these CVs will help divert some attention towards the combination of Org Table and LaTex for /*writing beautiful CVs*/.
 
 *** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv.org][CV Org File]]
 **** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv.pdf][CV PDF File]]
@@ -25,8 +25,8 @@ It is also an attempt to substitute the Two column CV structure of MS Word and L
 **** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cover-letter.pdf][Cover Letter PDF]]
 [[https://raw.githubusercontent.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/main/cover-letter.png]]
 
-*** How to insert Hard Spaces with Org-Mode:
-The keybinding ~C-x 8 SPC~ will insert one hard space, if you want to insert multiple or 10 hard spaces then do ~C-u 10 C-x 8 SPC~ ~C-u 02 C-x 8 SPC~
+*** To insert Hard Spaces with Org-Mode:
+The keybinding ~C-x 8 SPC~ will insert one hard space, if you want to insert multiple or 10 hard spaces then for 10 do ~C-u 10 C-x 8 SPC~ *or* for two do ~C-u 02 C-x 8 SPC~
 
 *** Limitations:
 - If you comment out a section, it will disrupt the table format. To avoid this either try some way out *or* simply move the section somewhere else. As in [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.org][CV 1]], you can use ~src comment~ at the end of file.
