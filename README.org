@@ -7,39 +7,35 @@ It is also an attempt to substitute the Two column CV structure of MS Word and L
 
 *** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv.org][CV]]
 **** Screenshot
-[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv.png]
-**** PDF File
-[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv.pdf]
+[[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv.png]]
+**** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv.pdf][CV PDF]]
 
 *** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.org][CV 1]]
 **** Screenshot
-[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.png]
-**** PDF File
-[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.pdf]
+[[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.png]]
+**** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.pdf][CV 1 PDF]]
 
 *** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv2.org][CV 2]]
 **** Screenshot
-[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv2.png]
-**** PDF File
-[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv2.pdf]
+[[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv2.png]]
+**** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv2.pdf][CV 2 PDF]]
 
 *** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv3.org][CV 3]]
 **** Screenshot
-[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv3.png]
-**** PDF File
-[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv3.pdf]
+[[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv3.png]]
+**** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv3.pdf][CV 3 PDF]]
 
 *** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cover-letter.org][Cover Letter]]
 **** Screenshot
-[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cover-letter.png]
-**** PDF File
-[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cover-letter.pdf]
+[[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cover-letter.png]]
+
+**** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cover-letter.pdf][Cover Letter PDF]]
 
 *** Add Hard Spaces:
 To insert hard spaces use the ~C-x 8 SPC~, if you want to insert multiple hard spaces then do ~C-u -- C-x 8 SPC~
 
 *** Limitations:
-- If you comment out a section, it will disrupt the table format. To avoid this either try some way out *or* simply move the section somewhere else. As in [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.org][CV 1]], you can use ~src comment~.
+- If you comment out a section, it will disrupt the table format. To avoid this either try some way out *or* simply move the section somewhere else. As in [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.org][CV 1]], you can use ~src comment~ at the end of file.
 - *Right now, I do not know how to export the CVs or the Cover Letter outside Emacs environment. It would be great if any one can tell how to.*
 
 *** References:
