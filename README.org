@@ -6,33 +6,27 @@ Since I tried to write my CV and Cover Letter in Org-mode, I could not find any 
 It is also an attempt to substitute the Two column CV structure of MS Word and Libre Office. Also after some browsing, I noticed that the other CVs have either totally ignored the Org Table functionality or used it in a very limited way. I hope these CVs will help divert some attention towards the combination of Org Table and LaTex for writing beautiful CVs.
 
 *** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv.org][CV]]
-**** Screenshot
-[[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv.png]]
 **** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv.pdf][CV PDF]]
+[[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv.png]]
 
 *** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.org][CV 1]]
-**** Screenshot
-[[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.png]]
 **** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.pdf][CV 1 PDF]]
+[[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.png]]
 
 *** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv2.org][CV 2]]
-**** Screenshot
-[[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv2.png]]
 **** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv2.pdf][CV 2 PDF]]
+[[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv2.png]]
 
 *** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv3.org][CV 3]]
-**** Screenshot
-[[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv3.png]]
 **** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv3.pdf][CV 3 PDF]]
+[[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv3.png]]
 
 *** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cover-letter.org][Cover Letter]]
-**** Screenshot
+**** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cover-letter.pdf][Cover Letter PDF]]
 [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cover-letter.png]]
 
-**** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cover-letter.pdf][Cover Letter PDF]]
-
-*** Add Hard Spaces:
-To insert hard spaces use the ~C-x 8 SPC~, if you want to insert multiple hard spaces then do ~C-u -- C-x 8 SPC~
+*** How to insert Hard Spaces with Org-Mode:
+~C-x 8 SPC~ will insert hard space, if you want to insert multiple hard spaces then do ~C-u -- C-x 8 SPC~.
 
 *** Limitations:
 - If you comment out a section, it will disrupt the table format. To avoid this either try some way out *or* simply move the section somewhere else. As in [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.org][CV 1]], you can use ~src comment~ at the end of file.
@@ -41,4 +35,4 @@ To insert hard spaces use the ~C-x 8 SPC~, if you want to insert multiple hard s
 *** References:
 - [[https://orgmode.org/index.html][Org Home]]
 - [[https://www.orgmode.org/manual/][Org Manual]]
-[[https://www.overleaf.com/latex/templates/simple-cv/dwhjbyjdkcch][Overleaf Simple-CV]]
+- [[https://www.overleaf.com/latex/templates/simple-cv/dwhjbyjdkcch][Overleaf Simple-CV]]
