@@ -28,7 +28,18 @@ It is also an attempt to substitute the Two column CV structure of MS Word and L
 *** To insert Hard Spaces with Org-Mode:
 The keybinding ~C-x 8 SPC~ will insert one hard space, if you want to insert multiple or 10 hard spaces then for 10 do ~C-u 10 C-x 8 SPC~ *or* for two do ~C-u 02 C-x 8 SPC~
 
-*** Emacs Configurations
+*** Emacs & LaTex
+---------
+**** LaTex Congfigurations
+- To compile the CVs successfully, you need the packages used in the Org files.
+- If you have space *6 GB*, I would recommend installing the complete Tex-live to save yourself the mess of missing packages:
+  *In Ubuntu*
+  #+begin_src bash
+sudo apt-get update
+sudo apt-get install texlive-full
+  #+end_src
+
+**** Emacs Configurations
 #+begin_src elisp
 ;; ____________org-latex-process____________
 
@@ -65,15 +76,7 @@ The keybinding ~C-x 8 SPC~ will insert one hard space, if you want to insert mul
 (global-set-key [f6] (lambda () (interactive) (org-latex-export-to-pdf-and-clean)))
 
 #+end_src
-
-*** LaTex Congfigurations
-- You compile the CVs successfully, you need the packages used in the org files.
-- If you have space *6 GB*, I would recommend installing the complete Tex-live to save yourself the mess of missing packages:
-  *In Ubuntu*
-  #+begin_src bash
-sudo apt-get update
-sudo apt-get install texlive-full
-  #+end_src
+------
 
 *** Limitations:
 - If you comment out a section, it will disrupt the table format. To avoid this either try some way out *or* simply move the section somewhere else. As in [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.org][CV 1]], you can use ~src comment~ at the end of file.
