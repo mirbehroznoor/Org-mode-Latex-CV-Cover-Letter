@@ -1,0 +1,69 @@
+#+OPTIONS: |:t toc:nil author:nil title:nil date:nil num:nil ^:{} \n:nil todo:nil tex:t latex:t
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+latex_header: \documentclass[a4paper,12pt]{article}
+#+latex_header: \usepackage{graphicx,wrapfig,lipsum}
+#+LATEX_HEADER: \usepackage[rmargin=1.20cm, lmargin=0.80cm, bmargin=1.0cm,tmargin=1.70cm]{geometry}
+#+latex_header: \usepackage{fontawesome}
+#+latex_header: \usepackage{hyperref}
+#+latex_header: \hypersetup{colorlinks=true, urlcolor=blue}
+# donot page number to the page
+\thispagestyle{empty}
+
+\hspace{9.5em} *CURRICULUM VITAE*
+\vspace{3.5em}
+# https://www.overleaf.com/learn/latex/Positioning_images_and_tables
+\begin{wrapfigure}{R}{0.30\textwidth}
+\includegraphics[width=0.50\linewidth]{org-mode-unicorn.svg.png}
+\end{wrapfigure}
+\hspace{11.5em}
+\vspace{-2.10em}
+|                    |        | *PERSONAL INFORMATION*                                                |
+|                    |        |                                                                       |
+| Surname            | \vrule | GNU Emacs                                                             |
+| Name               | \vrule | Org                                                                   |
+| Date of Birth      | \vrule | 01.01.2003                                                            |
+| Nationality        | \vrule | Plain Text Unicorn                                                    |
+| Visa Status        | \vrule | Immortal                                                              |
+| Address            | \vrule | \textcolor{purple} \faMapMarker{ Org-mode, Emacs}                     |
+|                    | \vrule | \textcolor{purple} \faMap{ Emacs, Emacs}                              |
+| Contact            | \vrule | \textcolor{teal}{\faEnvelope} \textcolor{blue}{emacs-orgmode@gnu.org} |
+|                    | \vrule | \textcolor{purple} \faMobile{ +xx-x-xxx-xxx}                          |
+|                    |        |                                                                       |
+| Profiles           | \vrule | \textcolor{teal}{\faGlobe} [[https://orgmode.org/index.html][Org Home]]                                   |
+|                    | \vrule | \textcolor{teal}{\faGlobe} [[https://www.orgmode.org/manual/][Org Manual]]                                 |
+|                    | \vrule | \faGithub\hspace{3pt}\textcolor{blue}{ mirbehroznoor/Org-mode-Latex-CV-Cover-Letter} |
+|                    |        |                                                                       |
+|                    |        | *EDUCATION*                                                           |
+|                    |        |                                                                       |
+| Since 1/2003       | \vrule | Master of Science in Plain Text                                       |
+|                    | \vrule | \hspace{0.05in} ~Open Source University, Emacs~                       |
+|                    |        |                                                                       |
+| 1972 - xxxx        | \vrule | Bachelor of Science (Honors) in Markup Languages                      |
+|                    | \vrule | \hspace{0.05in} ~Open Source College, Emacs~                          |
+|                    | \vrule | \hspace{0.20in} • Major: Note Keeping                                 |
+|                    | \vrule | \hspace{0.20in} • Minor: Anything in Text                             |
+|                    |        |                                                                       |
+|                    |        | *PERSONAL SKILLS & COMPETENCES*                                       |
+|                    |        |                                                                       |
+| Programming        | \vrule | Python-elpy \hspace{3em} \textcolor{purple} $\bullet \bullet \bullet \, \bullet$              |
+| Languages          | \vrule | R-ess \hspace{5em} \textcolor{purple} $\bullet \bullet \bullet \, \bullet$                    |
+|                    | \vrule | Bash \hspace{4em} \textcolor{purple} $\bullet \bullet \bullet \, \bullet$                     |
+|                    | \vrule | ...                                                                   |
+|                    |        |                                                                       |
+| Other Capabilities | \vrule | Spreadsheet \hspace{4em} \textcolor{purple} $\bullet \bullet \bullet \, \circ$              |
+|                    | \vrule | Stata (ado-mode) \hspace{4em} \textcolor{purple} $\bullet \bullet \bullet \, \bullet$         |
+|                    | \vrule | ...                                                                   |
+|                    |        |                                                                       |
+| Markup             | \vrule | Org \hspace{4em} \textcolor{purple} $\bullet \bullet \circ \, \circ$                      |
+| Languages          | \vrule | Markdown \hspace{1em} \textcolor{purple} $\bullet \bullet \circ \, \circ$                 |
+|                    | \vrule | \LaTeX \hspace{4em} \textcolor{purple} $\bullet \circ \circ \, \circ$                   |
+|                    | \vrule | ...                                                                   |
+|                    |        |                                                                       |
+| Operating          | \vrule | Ubuntu                                                                |
+| Systems            | \vrule | Windows                                                               |
+|                    | \vrule | MacOS                                                                 |
+|                    |        |                                                                       |
+| Natural            | \vrule | English                                                               |
+| Languages          | \vrule | ...                                                                   |
+|                    |        |                                                                       |

@@ -1,0 +1,81 @@
+#+OPTIONS: |:t toc:nil author:nil title:nil date:nil num:nil ^:{} \n:nil todo:nil tex:t latex:t
+#+PROPERTY: header-args :exports both :eval no
+#+latex_header: \documentclass[a4paper,10pt]{article}
+#+latex_header: \usepackage{graphicx,wrapfig,lipsum}
+# #+latex_header: \usepackage[vmargin=2.5cm, hmargin=0.50cm]{geometry}
+#+LATEX_HEADER: \usepackage[rmargin=1.20cm, lmargin=0.80cm, bmargin=1.0cm,tmargin=1.70cm]{geometry}
+
+# donot page number to the page
+\thispagestyle{empty}
+
+\hspace{3.5em} *CURRICULUM VITAE*
+\vspace{1.5em}
+# https://www.overleaf.com/learn/latex/Positioning_images_and_tables
+\begin{wrapfigure}{r}{0.3\textwidth}
+\includegraphics[width=0.60\linewidth]{org-mode-unicorn.svg.png}
+\end{wrapfigure}
+\hspace{8.5em}
+\vspace{-1.5em}
+|                   | \bf \underline{PERSONAL INFORMATION}                                                |
+| Surname           | GNU Emacs                                                                           |
+| Name              | Org                                                                                 |
+| Address           | Org-Mode, Emacs                                                                     |
+| Contact           | Email: /emacs-org-mode@gnu.com/                                                     |
+|                   | Mobile: /+XXXX-XXXXX/                                                               |
+| Date of Birth     | 01.01.2003                                                                          |
+| Nationality       | Emacs Unicorn                                                                       |
+| Visa Status       | Immortal                                                                            |
+| Profiles  | GitHub: /mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/                                                                                                 |
+|                   |                                                                                     |
+|                   | \bf \underline{EDUCATION}                                                           |
+|                   |                                                                                     |
+| Since 1/2003      | ~Master of Science in Plain Text~                                                   |
+|                   |           /Open Source University, Emacs/                                           |
+| 1972-xxxx         | ~Bacherlor of Science (Honors)~                                                     |
+|                   |            /Open Source College, Emacs (GNU)/                                       |
+|                   |                • Major: Note Taking                                                 |
+|                   |                • Minor: Anything Plain Text                                         |
+|                   |                                                                                     |
+|                   | \bf \underline{INTERNSHIP}                                                          |
+|                   |                                                                                     |
+| xx/2003-xx/2003   | ~Intern~                                                                            |
+|                   |           /Open Source University, XYZ, Emacs/                                      |
+|                   |                • XXX YYY                                                            |
+|                   |                • XXX YYY                                                            |
+| xx/2003-xx/2003   | ~Research Intern~                                                                   |
+|                   |            /Open Source University, XYZ, Emacs/                                     |
+|                   |                • Worked                                                             |
+|                   |                • Wrote                                                              |
+|                   |                • Gathered data                                                      |
+|                   |                • Reported progress on daily or weekly basis                         |
+|                   |                • Discussions                                                        |
+|                   |                                                                                     |
+|                   | \bf \underline{FURTHER EXPERIENCE}                                                  |
+|                   |                                                                                     |
+| xx/2003-xx/2003   | ~Research Assistant~                                                                |
+|                   |            /Open Source University, Emacs (GNU)/                                    |
+|                   |                Assisted Emacs User Everywhere                                       |
+|                   |                • Gathered relevant data from library, online sources and bookstores |
+|                   |                • Organized the material especially user's life and notes            |
+|                   |                                                                                     |
+|                   | \bf \underline{PERSONAL SKILLS and COMPETENCES}                                     |
+|                   | \underline{}                                                                        |
+| Computer Skills   | Ruby          R                                                                     |
+|                   | Python         Bash                                                                 |
+|                   | ..... What not??                                                                    |
+|                   |                                                                                     |
+| Natural Languages |         English                                                                     |
+|                   | .....                                                                               |
+|                   |                                                                                     |
+
+#+begin_src comment
+# https://stackoverflow.com/questions/14516134/orgmode-table-formatting-of-cells
+# C-x 8 SPC is inserting hard spaces
+|--------------------------------+--------------------------------------------------------|
+| <2>                            | <1>                                                    |
+| How do you alter your password | The command to alter your password in oracle is::      |
+| in Oracle?                     |                                                        |
+|                                |          ALTER USER {userid} IDENTIFIED BY {password}; |
+|                                |                                                        |
+|--------------------------------+--------------------------------------------------------|
+#+end_src

@@ -1,0 +1,32 @@
+#+options: toc:nil author:nil title:nil |:t tex:t latex:t
+#+latex_header: \documentclass[a4paper,12pt]{article}
+#+LATEX_HEADER: \usepackage[rmargin=1.5cm, lmargin=2.20cm, bmargin=2.0cm,tmargin=3.0cm]{geometry}
+#+latex_header: \usepackage{tgpagella}
+#+latex_header: \usepackage{setspace}
+#+latex_header: \setstretch{1.0}
+# #+LaTeX_HEADER: \setlength{\parindent}{1cm} % Default is 15pt, turn off first indent of par
+#+latex_header: \usepackage{lipsum}
+
+\thispagestyle{empty}
+\begin{tabular}{lr}
+{Mir Behroz Noor } \hspace{4.0in} {Place, 17/Jan/2022}\\
+House, Street, Postal-Code, City\\
+Phone: +xx-xxxx-xxx\\
+Email: xyz@email.com\\
+\\
+ESET\\
+Human Resources\\
+Address, City, Country\\
+\end{tabular}
+
+\hspace{0.45em} \begin{minipage}{0.90\linewidth}
+\raggedright
+\vspace{0.30cm} Dear Mr. Mir Behroz Noor,
+\setlength{\parskip}{0.90em}
+\\
+\lipsum[2-4]
+
+Yours faithfully,\\
+Mir Behroz Noor
+
+\end{minipage}

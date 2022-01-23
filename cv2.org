@@ -1,0 +1,75 @@
+#+OPTIONS: |:t toc:nil author:nil title:nil date:nil num:nil ^:{} \n:nil todo:nil tex:t latex:t
+#+PROPERTY: header-args :exports both :eval no
+#+latex_header: \documentclass[a4paper,10pt]{article}
+#+latex_header: \usepackage{graphicx,wrapfig}
+#+LATEX_HEADER: \usepackage[rmargin=1.20cm, lmargin=0.80cm, bmargin=1.0cm,tmargin=1.70cm]{geometry}
+#+latex_header: \usepackage{fontawesome}
+# donot page number to the page
+\thispagestyle{empty}
+\pagestyle{fancy}
+
+\hspace{8.5em} *CURRICULUM VITAE*
+\vspace{1.5em}
+# https://www.overleaf.com/learn/latex/Positioning_images_and_tables
+\begin{wrapfigure}{r}{0.3\textwidth}
+\includegraphics[width=0.60\linewidth]{org-mode-unicorn.svg.png}
+\end{wrapfigure}
+\hspace{8.5em}
+\vspace{-1.5em}
+|                   | \bf \underline{PERSONAL INFORMATION}                                  |
+| Surname           | GNU Emacs                                                             |
+| Name              | Org                                                                   |
+| Contact           | Email: /emacs-org-mode@gnu.com/                                       |
+|                   | Mobile: /+XXXX-XXXXX/                                                 |
+| Date of Birth     | 01.01.2003                                                            |
+| Nationality       | Emacs Unicorn                                                         |
+| Visa Status       | Immortal                                                              |
+| Address           | \faMapMarker{ Open Source World, GNU Emacs}                           |
+|                   | \faMap{ Org-Mode, GNU Emacs}                                          |
+| Contact           | \faEnvelope { emacs-orgmode@gnu.org}                                  |
+|                   | \faMobile{ +xx-x-xxx-xxx}                                             |
+|                   | \faGlobe [[https://orgmode.org/index.html][ Org Home]]                                                    |
+|                   | \faGlobe [[https://www.orgmode.org/manual/][ Org Manual]]                                                  |
+|                   | \faGithub{ mirbehroznoor/Org-mode-Latex-CV-Cover-Letter}              |
+|                   |                                                                       |
+|                   | \bf \underline{EDUCATION}                                             |
+|                   |                                                                       |
+| Since 1/2003      | ~Master of Science in Plain Text~                                     |
+|                   | \hspace{0.05in} /Open Source University, Emacs/                       |
+| 1972-xxxx         | ~Bacherlor of Science (Honors)~                                       |
+|                   | \hspace{0.05in} /Open Source College, Emacs/                          |
+|                   | \hspace{0.20in} • Major: Note Taking                                  |
+|                   | \hspace{0.20in} • Minor: Anything Plain Text                          |
+|                   |                                                                       |
+|                   | \bf \underline{INTERNSHIP}                                            |
+|                   |                                                                       |
+| 07/20xx - 06/20xx | ~Intern~                                                              |
+|                   | \hspace{0.05in} /University of Open Source, Emacs/                    |
+|                   | \hspace{0.20in} • Taught at the Department of Emacs                   |
+| 04/20xx - 07/20xx | ~Research Intern~                                                     |
+|                   | \hspace{0.05in} /Open Source Consultants, Emacs/                      |
+|                   | \hspace{0.20in} • Worked                                              |
+|                   | \hspace{0.20in} • Wrote drafts independently and also in team         |
+|                   | \hspace{0.20in} • Gathered data                                       |
+|                   | \hspace{0.20in} • Reported progress on daily or weekly basis          |
+|                   | \hspace{0.20in} • Discussion                                          |
+|                   |                                                                       |
+|                   | \bf \underline{FURTHER EXPERIENCE}                                    |
+|                   |                                                                       |
+| 02/20xx- 08/20xx  | ~Research Assistant~                                                  |
+|                   | \hspace{0.05in} /Org Research Project, Emacs/                         |
+|                   | \hspace{0.12in} Assisted Emacs User                                   |
+|                   | \hspace{0.20in} • Gathered relevant data from library, online sources |
+|                   |                                                                       |
+|                   | \bf \underline{PERSONAL SKILLS and COMPETENCES}                       |
+|                   | \underline{}                                                          |
+| Computer Skills   | Plain Text \hspace{3em} $\bullet \bullet \bullet \, \bullet$                                  |
+|                   | Python-elpy \hspace{3em} $\bullet \bullet \bullet \, \bullet$                                 |
+|                   | R-ess \hspace{5em} $\bullet \bullet \bullet \, \bullet$                                       |
+|                   | Bash \hspace{4em} $\bullet \bullet \bullet \, \bullet$                                        |
+|                   | Spreadsheet \hspace{4em} $\bullet \bullet \bullet \, \circ$                                 |
+|                   | ....                                                                  |
+|                   |                                                                       |
+| Natural Languages | English \hspace{1em} $\bullet \bullet \bullet \, \bullet$                                     |
+|                   | .....                                                                 |
+|                   |                                                                       |

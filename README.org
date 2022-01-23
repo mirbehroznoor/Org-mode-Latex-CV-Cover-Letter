@@ -1,0 +1,24 @@
+#+title: Org-mode-Latex-CV-Cover-Letter
+#+author: Mir Behroz Noor
+
+Since I tried to write to write my CV and Cover Letter in Org, I could not find any satisfactory solutions. Although there are not many CV's written in Org-mode if there are most of them use more LaTex. I tried to reduce the amount of \LaTex syntax, tried to use Org syntax as much as possible. However, I must say Org-mode and Latex complement each other very well.
+It is also an attempt to substitute the Two column CV structure of MS Word or Libre Office. After some browsing, I noticed that other CVs have either totally ignored the Org Table functionality or used it in a very limited way. I hope these CVs will help divert some attention towards the combination of Org Table and LaTex for writing beautiful CVs.
+
+
+** CV1
+
+** CV2
+
+** CV3
+
+** Cover Letter
+** Add Hard Spaces:
+To insert hard spaces use the ~C-x 8 SPC~, if you want to insert multiple hard spaces then do ~C-u -- C-x 8 SPC~
+** Limitations:
+- If you comment out a section, it will disrupt the table format. To avoid this either try some way out simply move the section somewhere else. As in CV1 [file:./cv1.org], you can use ~src comment~.
+- *Right now, I do not know how to export the CVs or the Cover Letter outside Emacs Enviroment. It would be great if any one can tell how to.*
+
+** References:
+[[https://orgmode.org/index.html][Org Home]]
+[[https://www.orgmode.org/manual/][Org Manual]]
+[[https://www.overleaf.com/latex/templates/simple-cv/dwhjbyjdkcch][Overleaf Simple-CV]]
