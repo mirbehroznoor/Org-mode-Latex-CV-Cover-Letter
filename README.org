@@ -1,7 +1,7 @@
 #+title: Org-mode-Latex-CV-Cover-Letter
 #+author: Mir Behroz Noor
 
-I tried to write my CV and Cover Letter in Org-mode, unfortunately I did not find any suitable solutions. Although there were few but most of them use a lot of LaTex syntax. Thus, here I have tried to reduce the amount of *LaTex* syntax and use *Org* syntax as much as possible. However, I must say Org-mode and LaTex complement each other really well as you will see with these CVs.
+I tried to write my CV and Cover Letter in Org-mode, unfortunately I could not find any suitable solutions. Although there were few CVs but most of them had used a lot of LaTex syntax. Thus, here I have tried to reduce the amount of *LaTex* syntax and use *Org* syntax as much as possible. However, I must say Org-mode and LaTex complement each other really well as you will see with these CVs.
 
 It is also an attempt to substitute the Two column CV structure of MS Word and Libre Office. Also to note that the other CVs have either totally ignored the Org Table functionality or used it in a very limited way. I hope these CVs will help divert some attention towards the combination of Org Table and LaTex for *writing beautiful CVs*.
 
@@ -86,3 +86,4 @@ sudo apt-get install texlive-full
 - [[https://orgmode.org/index.html][Org Home]]
 - [[https://www.orgmode.org/manual/][Org Manual]]
 - [[https://www.overleaf.com/latex/templates/simple-cv/dwhjbyjdkcch][Overleaf Simple-CV]]
+- [[https://www.overleaf.com/learn/latex/Positioning_images_and_tables][Overleaf Position Images & Tables]]
