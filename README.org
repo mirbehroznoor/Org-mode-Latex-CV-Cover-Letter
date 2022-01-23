@@ -87,4 +87,4 @@ sudo apt-get install texlive-full
 - [[https://www.orgmode.org/manual/][Org Manual]]
 - [[https://www.overleaf.com/latex/templates/simple-cv/dwhjbyjdkcch][Overleaf Simple-CV]]
 - [[https://www.overleaf.com/learn/latex/Positioning_images_and_tables][Overleaf Position Images & Tables]]
-- Insert on hard space in Org-Mode: [[https://stackoverflow.com/questions/14516134/orgmode-table-formatting-of-cells][Stackoverflow: Orgmode Table Formatting of Cells]]
+- [[https://stackoverflow.com/questions/14516134/orgmode-table-formatting-of-cells][Stackoverflow: Orgmode Table Formatting/Insert hard space in Org-Mode]]
