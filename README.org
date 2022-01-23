@@ -28,6 +28,53 @@ It is also an attempt to substitute the Two column CV structure of MS Word and L
 *** To insert Hard Spaces with Org-Mode:
 The keybinding ~C-x 8 SPC~ will insert one hard space, if you want to insert multiple or 10 hard spaces then for 10 do ~C-u 10 C-x 8 SPC~ *or* for two do ~C-u 02 C-x 8 SPC~
 
+*** Emacs Configurations
+#+begin_src elisp
+;; ____________org-latex-process____________
+
+;; Coloured LaTeX using Minted
+(setq-default
+ org-latex-listings 'minted
+ org-latex-packages-alist '(("" "minted"))
+ ;;Org-export settings depends alot on the pdf-compiler
+ org-latex-pdf-process
+ '("latexmk -f -pdf -%latex -bibtex -interaction=nonstopmode -output-directory=%o %f")
+ )
+
+;; ____________org-export-and-delete-extra-files____________
+
+(setq-default
+ org-export-latex-hyperref-format "\\ref{%s}"
+ org-latex-remove-logfiles t
+ org-latex-logfiles-extensions
+ (quote
+  ("lof" "lot" "tex~" "aux" "idx" "log" "out" "toc" "nav" "snm" "vrb" "dvi" "fdb_latexmk" "blg" "brf" "fls" "entoc" "ps" "spl" "bbl" "fls" "lol" "equ" "bcf" "tex" "pyg"
+   )))
+
+(defun org-latex-export-to-pdf-and-clean ()
+  "Org-latex-export and delete files mentioned in org-latex-logfiles-extensions!"
+  (interactive)
+  (when (eq major-mode 'org-mode)
+    (org-open-file (org-latex-export-to-pdf))
+    (delete-file (concat (file-name-sans-extension (buffer-name)) ".run.xml"))
+    (delete-file (concat (file-name-sans-extension (buffer-name)) ".synctex.gz"))
+    (delete-file "texput.log")
+    (delete-directory "auto" 't)
+    (delete-directory (concat "_minted-" (file-name-sans-extension (buffer-name))) 't)
+    ))
+(global-set-key [f6] (lambda () (interactive) (org-latex-export-to-pdf-and-clean)))
+
+#+end_src
+
+*** LaTex Congfigurations
+- You compile the CVs successfully, you need the packages used in the org files.
+- If you have space *6 GB*, I would recommend installing the complete Tex-live to save yourself the mess of missing packages:
+  *In Ubuntu*
+  #+begin_src bash
+sudo apt-get update
+sudo apt-get install texlive-full
+  #+end_src
+
 *** Limitations:
 - If you comment out a section, it will disrupt the table format. To avoid this either try some way out *or* simply move the section somewhere else. As in [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv1.org][CV 1]], you can use ~src comment~ at the end of file.
 - *Right now, I do not know how to export the CVs or the Cover Letter outside Emacs environment. It would be great if any one can tell how to.*
