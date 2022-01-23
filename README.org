@@ -25,7 +25,7 @@ It is also an attempt to substitute the Two Column CV structure of MS Word and L
 **** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cover-letter.pdf][Cover Letter PDF]]
 [[https://raw.githubusercontent.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/main/cover-letter.png]]
 
-*** Insert a Hard Space ([[https://stackoverflow.com/questions/14516134/orgmode-table-formatting-of-cells][Stackoverflow: Orgmode Table Formatting of Cells]])
+*** Insert one hard space in Org-Mode
 The keybinding ~C-x 8 SPC~ will insert one hard space, if you want to insert multiple or 10 hard spaces then for 10 do ~C-u 10 C-x 8 SPC~ *or* for two do ~C-u 02 C-x 8 SPC~
 
 ---------
@@ -87,4 +87,4 @@ sudo apt-get install texlive-full
 - [[https://www.orgmode.org/manual/][Org Manual]]
 - [[https://www.overleaf.com/latex/templates/simple-cv/dwhjbyjdkcch][Overleaf Simple-CV]]
 - [[https://www.overleaf.com/learn/latex/Positioning_images_and_tables][Overleaf Position Images & Tables]]
-- [[https://stackoverflow.com/questions/14516134/orgmode-table-formatting-of-cells][Stackoverflow: Orgmode Table Formatting of Cells]]
+- Insert on hard space in Org-Mode: [[https://stackoverflow.com/questions/14516134/orgmode-table-formatting-of-cells][Stackoverflow: Orgmode Table Formatting of Cells]]

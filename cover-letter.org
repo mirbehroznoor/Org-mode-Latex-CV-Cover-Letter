@@ -14,7 +14,7 @@ House, Street, Postal-Code, City\\
 Phone: +xx-xxxx-xxx\\
 Email: xyz@email.com\\
 \\
-ESET\\
+XYZ\\
 Human Resources\\
 Address, City, Country\\
 \end{tabular}
