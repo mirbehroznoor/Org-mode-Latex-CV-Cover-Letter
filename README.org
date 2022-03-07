@@ -1,7 +1,7 @@
 #+title: Org-mode-Latex-CV-Cover-Letter
 #+author: Mir Behroz Noor
 
-Initially, I was hoping to find an *ONLY* Org-mode template for my CV and Cover Letter and I failed to find any. I did find /*Org + LaTex*/ CVs but most of them had a lot of LaTex syntax. Thus, here I have tried to reduce the amount of *LaTex* syntax and use as much *Org* syntax as possible. I must say Org-mode and LaTex complement each other really well as you will see with these CVs.
+Initially, I was hoping to find an *ONLY* Org-mode template for my CV and Cover Letter and I failed to find any. I did find *Org + LaTex* CVs but most of them had a lot of LaTex syntax. Thus, here I have tried to reduce the amount of *LaTex* syntax and use as much *Org* syntax as possible. I must say Org-mode and LaTex complement each other really well as you will see with these CVs.
 
 It is also an attempt to substitute the Two Column CV structure of MS Word and Libre Office. Also to note that other CVs have either totally ignored the Org Table functionality or used it in a very limited way. I hope these CVs will help divert some attention towards the combination of Org Table and LaTex for *writing beautiful CVs*.
 
