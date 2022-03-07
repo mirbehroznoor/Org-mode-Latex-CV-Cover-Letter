@@ -1,14 +1,18 @@
 #+OPTIONS: |:t toc:nil author:nil title:nil date:nil num:nil ^:{} \n:nil todo:nil tex:t latex:t
-#+PROPERTY: header-args :exports both :eval no
-# #+latex_header: \documentclass[a4paper,10pt]{article}
-#+latex_header: \documentclass[10pt,a4paper,normalphoto]{altacv}
-#+latex_header: \usepackage{graphicx,wrapfig}
-# #+latex_header: \usepackage[vmargin=2.5cm, hmargin=0.50cm]{geometry}
-#+LATEX_HEADER: \usepackage[rmargin=1.20cm, lmargin=0.80cm, bmargin=1.0cm,tmargin=1.70cm]{geometry}
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+latex_header: \documentclass[a4paper,12pt]{article}
+#+latex_header: \usepackage{graphicx,wrapfig,lipsum}
+#+LATEX_HEADER: \usepackage[lmargin=2.50cm, bmargin=2.0cm,tmargin=2.50cm]{geometry}
 #+latex_header: \usepackage{fontawesome}
-# donot page number to the page
-\thispagestyle{empty}
-\pagestyle{fancy}
+#+latex_header: \usepackage{hologo} % LaTeX logo: \LaTeX
+#+latex_header: \usepackage{tgpagella}
+#+latex_header: \usepackage{dtk-logos}
+#+latex_header: \usepackage[T1]{fontenc} % combinations of bold and italic
+#+latex_header: \usepackage{tabularx}
+#+latex_header: \usepackage{hyperref}
+#+latex_header: \hypersetup{colorlinks=true, urlcolor=blue}
+#+latex_header: \pagestyle{empty} %No page numbers
 
 |*CURRICULUM VITAE*|
 \vspace{1.5em}
@@ -18,6 +22,9 @@
 \end{wrapfigure}
 \hspace{9.5em}
 \vspace{-1.5em}
+
+#+ATTR_LATEX: :environment longtable :booktabs t :rmlines t :align lll :width \linewidth
+|-------------------+-----------------------------------------------------------------------|
 |                   | \bf \underline{PERSONAL INFORMATION}                                  |
 | Surname           | GNU Emacs                                                             |
 | Name              | Org                                                                   |
@@ -61,7 +68,7 @@
 |                   | \hspace{0.05in} /Org Research Project, Emacs/                         |
 |                   | \hspace{0.12in} Assisted Emacs User                                   |
 |                   | \hspace{0.20in} • Gathered relevant data from library, online sources |
-|                   |                                                                       |
+|\pagebreak         |                                                                       |
 |                   | \bf \underline{PERSONAL SKILLS and COMPETENCES}                       |
 |                   | \underline{}                                                          |
 | Computer Skills   | Plain Text \hspace{3em} \textcolor{purple} $\bullet \bullet \bullet \, \bullet$               |
@@ -71,6 +78,7 @@
 |                   | Org-Spreadsheet \hspace{2em} \textcolor{purple} $\bullet \circ \circ \, \circ$          |
 |                   | Stata (Ado Mode) \hspace{2em} \textcolor{purple} $\bullet \circ \circ \, \circ$         |
 |                   |                                                                       |
-| Natural Languages | English \hspace{1em} $\bullet \bullet \bullet \, \bullet$                                      |
+| Natural Languages | English \hspace{1em} $\bullet \bullet \bullet \, \bullet$                                     |
 |                   | .....                                                                 |
 |                   |                                                                       |
+|-------------------+-----------------------------------------------------------------------|

@@ -1,11 +1,15 @@
 #+options: toc:nil author:nil title:nil |:t tex:t latex:t
 #+latex_header: \documentclass[a4paper,12pt]{article}
-#+LATEX_HEADER: \usepackage[rmargin=1.5cm, lmargin=2.20cm, bmargin=2.0cm,tmargin=3.0cm]{geometry}
+#+LATEX_HEADER: \usepackage[rmargin=1.5cm, lmargin=2.20cm, bmargin=2.0cm,tmargin=4.0cm]{geometry}
 #+latex_header: \usepackage{tgpagella}
 #+latex_header: \usepackage{setspace}
 #+latex_header: \setstretch{1.0}
 # #+LaTeX_HEADER: \setlength{\parindent}{1cm} % Default is 15pt, turn off first indent of par
+#+latex_header: \thispagestyle{empty}
+#+latex_header: \usepackage{hyperref}
+#+latex_header: \hypersetup{colorlinks=true}
 #+latex_header: \usepackage{lipsum}
+
 
 \thispagestyle{empty}
 \begin{tabular}{lr}

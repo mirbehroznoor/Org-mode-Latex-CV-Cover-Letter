@@ -1,9 +1,9 @@
 #+title: Org-mode-Latex-CV-Cover-Letter
 #+author: Mir Behroz Noor
 
-Initially, I was hoping to find an Org-mode template for my CV and Cover Letter, unfortunately I could not find *only org-mode* CV. However, I did find *Org-mode+LaTex* CVs but most of them had used a lot of LaTex syntax. Thus, here I have tried to reduce the amount of *LaTex* syntax and use *Org* syntax as much as possible. However, I must say Org-mode and LaTex complement each other really well as you will see with these CVs.
+Initially, I was hoping to find an *ONLY* Org-mode template for my CV and Cover Letter and I failed to find any. I did find /*Org + LaTex*/ CVs but most of them had a lot of LaTex syntax. Thus, here I have tried to reduce the amount of *LaTex* syntax and use as much *Org* syntax as possible. I must say Org-mode and LaTex complement each other really well as you will see with these CVs.
 
-It is also an attempt to substitute the Two Column CV structure of MS Word and Libre Office. Also to note that the other CVs have either totally ignored the Org Table functionality or used it in a very limited way. I hope these CVs will help divert some attention towards the combination of Org Table and LaTex for *writing beautiful CVs*.
+It is also an attempt to substitute the Two Column CV structure of MS Word and Libre Office. Also to note that other CVs have either totally ignored the Org Table functionality or used it in a very limited way. I hope these CVs will help divert some attention towards the combination of Org Table and LaTex for *writing beautiful CVs*.
 
 *** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv.org][CV Org File]]
 **** [[https://github.com/mirbehroznoor/Org-mode-Latex-CV-Cover-Letter/blob/main/cv.pdf][CV PDF File]]
@@ -88,3 +88,5 @@ sudo apt-get install texlive-full
 - [[https://www.overleaf.com/latex/templates/simple-cv/dwhjbyjdkcch][Overleaf Simple-CV]]
 - [[https://www.overleaf.com/learn/latex/Positioning_images_and_tables][Overleaf Position Images & Tables]]
 - [[https://stackoverflow.com/questions/14516134/orgmode-table-formatting-of-cells][Stackoverflow: Orgmode Table Formatting/Insert hard space in Org-Mode]]
+- [[https://tex.stackexchange.com/questions/12946/how-can-i-split-long-tables-in-emacs-org-mode-latex-export][TEX Stack Exchage: Split long table Emacs Orgmode-Latex export]]
+- [[https://orgmode.org/manual/Tables-in-LaTeX-export.html][Orgmode: Tables in LaTeX export]]
